@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
-using Zza.Data;
+using PizzaDelivery.Data;
 
-namespace ZzaDashboard.Services
+namespace PizzaDeliveryDashboard.Services
 {
     public interface ICustomersRepository
     {

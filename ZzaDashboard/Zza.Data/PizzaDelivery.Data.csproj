@@ -7,8 +7,8 @@
     <ProjectGuid>{BB1E80DE-E6D1-4E29-BC2D-DB66B81163C5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Zza.Data</RootNamespace>
-    <AssemblyName>Zza.Data</AssemblyName>
+    <RootNamespace>PizzaDelivery.Data</RootNamespace>
+    <AssemblyName>PizzaDelivery.Data</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>

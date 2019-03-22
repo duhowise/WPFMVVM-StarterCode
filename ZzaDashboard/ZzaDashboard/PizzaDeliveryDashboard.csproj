@@ -7,8 +7,8 @@
     <ProjectGuid>{B4BAF275-1AAD-408E-AC04-1DBE32FD855E}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ZzaDashboard</RootNamespace>
-    <AssemblyName>ZzaDashboard</AssemblyName>
+    <RootNamespace>PizzaDeliveryDashboard</RootNamespace>
+    <AssemblyName>PizzaDeliveryDashboard</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -112,9 +112,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Zza.Data\Zza.Data.csproj">
+    <ProjectReference Include="..\Zza.Data\PizzaDelivery.Data.csproj">
       <Project>{bb1e80de-e6d1-4e29-bc2d-db66b81163c5}</Project>
-      <Name>Zza.Data</Name>
+      <Name>PizzaDelivery.Data</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

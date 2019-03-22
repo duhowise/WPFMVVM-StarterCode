@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using System.Threading.Tasks;
-using Zza.Data;
+using PizzaDelivery.Data;
 
-namespace ZzaDashboard.Services
+namespace PizzaDeliveryDashboard.Services
 {
     public class CustomersRepository : ICustomersRepository
     {
@@ -30,7 +30,7 @@ namespace ZzaDashboard.Services
 
         public async Task<Customer> UpdateCustomerAsync(Customer customer)
         {
-            if (!_context.Customers.Local.Any(c => c.Id == customer.Id))
+            if (_context.Customers.Local.All(c => c.Id != customer.Id))
             {
                 _context.Customers.Attach(customer);
             }

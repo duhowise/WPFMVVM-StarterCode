@@ -4,10 +4,8 @@ using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace ZzaDesktop
+namespace PizzaDeliveryDashboard
 {
     public class ValidatableBindableBase : BindableBase, INotifyDataErrorInfo
     {
